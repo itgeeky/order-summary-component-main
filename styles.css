@@ -1,0 +1,117 @@
+body{
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  background-color: #e0e8ff;
+}
+.main{
+  width: 450px;
+  height: 600px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.hero{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.title{
+  font-size: 2rem;
+}
+.texto1{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #7280a7;
+}
+.texto2{
+  text-align: left;
+  padding-top: 12px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.texto3{
+  text-align: left;
+  padding-top: 12px;
+  margin-bottom: auto;
+  margin-top: auto;
+  color: #7280a7;
+}
+.music{
+  float: left;
+  position: relative;
+  top: 15px;
+  margin: auto 10px auto 10px;
+}
+.change{
+  float: right;
+}
+.price{
+  width: 350px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5f7ff;
+  border-radius: 7px;
+}
+.BUTTON_JNC {
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   color: #5951b6;
+   position: relative;
+   bottom: 33px;
+   right: 15px;
+}
+
+.BUTTON_JNC:hover {
+   text-decoration: none;
+   color: #7280a7;
+}
+
+.BUTTON_1 {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 5px;
+   line-height: 16px;
+   color: white;
+   width: 330px;
+   height: 14px;
+   font-size: 1rem;
+   padding: 10px;
+   background-color: #3b2ce8;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.BUTTON_1:hover {
+   background: #5951b6;
+   background-image: -webkit-linear-gradient(top, #7280a7, #5951b6);
+   background-image: -moz-linear-gradient(top, #7280a7, #5951b6);
+   background-image: -ms-linear-gradient(top, #7280a7, #5951b6);
+   background-image: -o-linear-gradient(top, #7280a7, #5951b6);
+   background-image: -webkit-gradient(to bottom, #7280a7, #5951b6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 5px;
+   text-decoration: none;
+}
+.btn2{
+  margin-top: 13px;
+}
+.attribution{
+  position: absolute;
+  bottom: 1px;
+
+}
